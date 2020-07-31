@@ -20,10 +20,12 @@ const IndexPagePreview = ({ entry, getAsset }) => {
     //   return <div>Loading...</div>
     // }
     return (
-        <img
-            src="https://images.unsplash.com/photo-1538219008904-166ea576a586?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-            objectFit="cover"
-        />
+        <div style={{ width: '100vw' }}>
+            <img
+                src="https://images.unsplash.com/photo-1538219008904-166ea576a586?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                objectFit="cover"
+            />
+        </div>
     )
 }
 
