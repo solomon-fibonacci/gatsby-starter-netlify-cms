@@ -41,7 +41,7 @@ const Navbar = class extends React.Component {
                             <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
                         </Link>
                         {/* Hamburger menu */}
-                        <div
+                        {/* <div
                             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
                             data-target="navMenu"
                             onClick={() => this.toggleHamburger()}
@@ -49,9 +49,9 @@ const Navbar = class extends React.Component {
                             <span />
                             <span />
                             <span />
-                        </div>
+                        </div> */}
                     </div>
-                    <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
+                    {/* <div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
                         <div className="navbar-start has-text-centered">
                             <Link className="navbar-item" to="/about">
                                 About
@@ -63,7 +63,7 @@ const Navbar = class extends React.Component {
                                 Contact
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </nav>
         )
